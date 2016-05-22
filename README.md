@@ -5,7 +5,7 @@ This is a sample application made on EmberJS using Material Design Lite template
 2. Add third-party libraries
 3. Deploying EmberJs on Heroku
 
-[![Screen Shot][screen_shot]]
+![Screen Shot][screen_shot]
 
 ## Prerequisites
 
