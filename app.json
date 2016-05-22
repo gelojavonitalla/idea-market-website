@@ -1,0 +1,11 @@
+{
+  "name": "ember-mdl-android-dot-com",
+  "description": "android.com template ported to ember",
+  "website": "https://ember-mdl-android.herokuapp.com/",
+  "repository": "https://github.com/gelojavonitalla/ember-mdl-android-dot-com.git",
+  "buildpacks": [
+    {
+      "url": "https://github.com/tonycoco/heroku-buildpack-ember-cli.git"
+    }
+  ]
+}

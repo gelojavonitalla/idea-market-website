@@ -1,7 +1,7 @@
 {
-  "name": "ember-mdl-adroiddotcom",
-  "version": "0.0.0",
-  "description": "Small description for ember-mdl-adroiddotcom goes here",
+  "name": "ember-mdl-android-dot-com",
+  "version": "0.0.1",
+  "description": "Material Design Lite (MDL) template for Android.com Ported in Ember.Js",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -12,7 +12,7 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/gelojavonitalla/ember-mdl-android-dot-com.git",
   "engines": {
     "node": ">= 0.10.0"
   },

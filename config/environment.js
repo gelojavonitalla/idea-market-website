@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-mdl-adroiddotcom',
+    modulePrefix: 'ember-mdl-android-dot-com',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
