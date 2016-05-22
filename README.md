@@ -1,7 +1,11 @@
 # ember-mdl-android-dot-com
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a sample application made on EmberJS using Material Design Lite template (for Android.com). 
+1. Create a sample EmberJs that uses components, routes
+2. Add third-party libraries
+3. Deploying EmberJs on Heroku
+
+[![Screen Shot][screen_shot]]
 
 ## Prerequisites
 
@@ -52,4 +56,5 @@ Make use of the many generators for code, try `ember help generate` for more det
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 [heroku_button]: https://www.herokucdn.com/deploy/button.png
+[screen_shot]: https://raw.githubusercontent.com/gelojavonitalla/ember-mdl-android-dot-com/master/samples/Android.com%20Material%20Design%20Lite%20Ember.png
 [heroku_deploy]: https://heroku.com/deploy?template=https://github.com/gelojavonitalla/ember-mdl-android-dot-com/tree/master
