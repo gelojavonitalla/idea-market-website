@@ -3,9 +3,9 @@ import Ember from 'ember';
 let features = [
   {
     image: "images/more-from-1.png",
-    title: "Send SMS Anywhere",
-    subText: "Four tips to make your switch to Android quick and easy",
-    callToAction: "Make the switch"
+    title: "Send SMS Anywhere FREE",
+    subText: "Send SMS anywhere in the world for FREE. Data is not required and can run on normal SMS credits. Platform can be used for OTP, SMS Notification",
+    callToAction: "I am interested, Vyron"
   },
   {
     image: "images/more-from-4.png",
