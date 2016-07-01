@@ -3,7 +3,7 @@ import Ember from 'ember';
 let features = [
   {
     image: "images/more-from-1.png",
-    title: "Get going on Android",
+    title: "Send SMS Anywhere",
     subText: "Four tips to make your switch to Android quick and easy",
     callToAction: "Make the switch"
   },
@@ -21,7 +21,7 @@ let features = [
   },
   {
     image: "images/more-from-3.png",
-    title: "Millions to choose from<",
+    title: "Millions to choose from",
     subText: "Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.",
     callToAction: "Find apps"
   }
