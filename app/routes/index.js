@@ -5,7 +5,7 @@ let features = [
     image: "images/more-from-1.png",
     title: "Send SMS Anywhere FREE",
     subText: "Send SMS anywhere in the world for FREE. Data is not required and can run on normal SMS credits. Platform can be used for OTP, SMS Notification",
-    callToAction: "I am interested, Vyron"
+    callToAction: "I am interested"
   },
   {
     image: "images/more-from-4.png",
