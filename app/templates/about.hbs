@@ -7,28 +7,21 @@
 </div>
 <h1>About Us</h1>
 <div class="mdl-grid">
-    <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet"><img src="images/more-from-1.png"></div>
-    </div>
-    <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+  {{#each model.aboutList as | about index|}}
+      <div class="mdl-card__actions mdl-card--border"></div>
+      <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet"><img src="{{about.image}}"></div>
+      </div>
+      <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+              <div class="mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">{{about.title}}</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text"><p>{{about.description}}</p></div>
+              </div>
+          </div>
+      </div>
+  {{/each}}
 
-            <div class="mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">Post Your Idea</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget luctus urna. Fusce ultrices nulla arcu, ac gravida quam pretium non. Nam sit amet ex vulputate, tincidunt ligula sit amet, scelerisque ligula. Fusce sit amet turpis condimentum lorem ornare viverra sit amet vitae urna. Nullam vel fermentum nulla. Proin mauris erat, ullamcorper quis eros eu, porttitor dapibus odio. Ut sed risus lacus. Aliquam vitae sem sit amet risus molestie hendrerit in sit amet arcu. Quisque nec mattis elit.
-
-                    Cras viverra nisl quis enim tempus finibus. Phasellus ullamcorper molestie faucibus. Aliquam tempus urna massa, sed porta justo pellentesque et. Nulla ultricies magna id leo vehicula pretium. Quisque finibus consectetur gravida. Nullam aliquet augue at nunc egestas pretium. Quisque feugiat dolor non maximus luctus. Etiam ultricies est ac quam tempus feugiat. Nam pellentesque accumsan arcu, a sagittis nunc euismod tempus. Aliquam quis sodales ante. Nunc non eros hendrerit, feugiat lacus non, volutpat arcu. Praesent gravida tortor nec tortor consectetur eleifend.
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                        Read more
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
 </div>
