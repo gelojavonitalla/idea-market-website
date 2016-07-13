@@ -543,3 +543,50 @@ a img{
   margin-bottom: 40px;
   z-index: 900;
 }
+/**Custom Layout*/
+.featureBlock{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.featureBlock .item{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.featureBlock .item:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.featureBlock .item .caption {
+  max-width: 350px;
+  width: 40%;
+  height: auto;
+  padding: 5px;
+}
+
+.featureBlock .item .image {
+  width: 60%;
+  padding: 5px;
+}
+.featureBlock:nth-child(odd) .image {
+  float: left;
+}
+
+.featureBlock:nth-child(odd) .caption {
+  text-align: left;
+  float: right;
+}
+
+.featureBlock:nth-child(even) .image {
+  float: right;
+}
+
+.featureBlock:nth-child(even) .caption {
+  text-align: right;
+  float: left;
+}
