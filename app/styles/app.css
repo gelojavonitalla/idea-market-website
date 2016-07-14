@@ -163,15 +163,26 @@ a img{
 }
 
 .logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans Pro Bold', sans-serif;
   line-height: 1;
   color: #f5f5f5;
-  font-weight: 500;
 }
 
 .slogan {
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bold;
   padding-top: 160px;
+}
+
+.button {
+  background-color: #FD481D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .white-tint {
@@ -184,8 +195,9 @@ a img{
 }
 
 .sub-slogan {
-  font-size: 21px;
+  font-size: 20px;
   padding-top: 24px;
+  font-style: italic;
 }
 
 .android-create-character {
