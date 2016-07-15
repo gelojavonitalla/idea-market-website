@@ -1,5 +1,5 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
             <!-- Logo title -->
              <span class="title mdl-layout-title">
@@ -8,7 +8,8 @@
             <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link mdl-typography--text-uppercase">Home</a>
-              {{#link-to 'about'}}<a href="" class="mdl-navigation__link mdl-typography--text-uppercase">About</a>{{/link-to}}
+              {{#link-to 'about'}}<a href=""
+                                     class="mdl-navigation__link mdl-typography--text-uppercase">About</a>{{/link-to}}
                 <a class="mdl-navigation__link mdl-typography--text-uppercase">Login</a>
                 <a class="mdl-navigation__link mdl-typography--text-uppercase">How it works</a>
                 <label class="mdl-button mdl-js-button mdl-button--icon"
@@ -19,5 +20,6 @@
         </div>
     </header>
     <main class="mdl-layout__content">
+        <div>Content</div>
     </main>
 </div>

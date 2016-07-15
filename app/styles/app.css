@@ -3,7 +3,7 @@ body {
 }
 
 /* Disable ugly boxes around images in IE10 */
-a img{
+a img {
   border: 0px;
 }
 
@@ -26,7 +26,6 @@ a img{
   margin: 0 !important;
 }
 
-
 .mdl-textfield--expandable {
   width: auto;
 }
@@ -48,7 +47,6 @@ a img{
   height: 50px;
   width: 225px;
 }
-
 
 .header {
   overflow: visible;
@@ -95,7 +93,6 @@ a img{
   width: 100px;
 }
 
-
 .android-navigation .mdl-navigation__link {
   display: inline-block;
   height: 60px;
@@ -121,7 +118,6 @@ a img{
   -ms-flex-order: 3;
   order: 3;
 }
-
 
 .android-drawer {
   border-right: none;
@@ -249,7 +245,6 @@ a img{
   z-index: 1;
 }
 
-
 .android-phone {
   display: inline-block;
   width: 64px;
@@ -260,7 +255,6 @@ a img{
   width: 100%;
   z-index: 1;
 }
-
 
 .android-tablet {
   display: inline-block;
@@ -278,7 +272,6 @@ a img{
   z-index: 2;
 }
 
-
 .android-tv {
   display: inline-block;
   width: 300px;
@@ -289,7 +282,6 @@ a img{
   width: 100%;
   z-index: 1;
 }
-
 
 .android-auto {
   display: inline-block;
@@ -302,7 +294,6 @@ a img{
   height: 300px;
   z-index: 1;
 }
-
 
 .android-wear-section {
   position: relative;
@@ -462,11 +453,9 @@ a img{
   top: 6px;
 }
 
-
 .android-link-menu:hover {
   cursor: pointer;
 }
-
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
@@ -555,54 +544,64 @@ a img{
   margin-bottom: 40px;
   z-index: 900;
 }
+
 /**Custom Layout*/
-.featureBlock{
-  width: 90%;
+.featureBlock {
   margin: 0 auto;
 }
 
-.featureBlock .item{
+.featureBlock .item {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 5px;
-}
 
-.featureBlock .item:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .featureBlock .item .caption {
-  max-width: 350px;
-  width: 40%;
+  width: 100%;
   height: auto;
-  padding: 5px;
+  padding: 10px;
 }
 
 .featureBlock .item .image {
-  width: 60%;
-  padding: 5px;
+  width: 100%;
+  padding: 10px;
 }
 
-@media screen and (min-width: 600px) {
- .featureBlock:nth-child(odd) .image {
-   float: left;
- }
+@media screen and (min-width: 1000px) {
+  .featureBlock .item:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 
- .featureBlock:nth-child(odd) .caption {
-   text-align: left;
-   float: right;
- }
+  .featureBlock:nth-child(odd) .image {
+    float: left;
+    width: 60%;
+    padding: 5px;
+  }
 
- .featureBlock:nth-child(even) .image {
-   float: right;
- }
+  .featureBlock:nth-child(odd) .caption {
+    text-align: left;
+    float: right;
+    max-width: 350px;
+    width: 40%;
+    padding: 5px;
+  }
 
- .featureBlock:nth-child(even) .caption {
-   text-align: right;
-   float: left;
- }
+  .featureBlock:nth-child(even) .image {
+    float: right;
+    width: 60%;
+    padding: 5px;
+  }
+
+  .featureBlock:nth-child(even) .caption {
+    text-align: right;
+    padding: 5px;
+    float: left;
+    max-width: 350px;
+    width: 40%;
+  }
 }
 
