@@ -60,5 +60,5 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 [heroku_button]: https://www.herokucdn.com/deploy/button.png
 [demo_site]: https://ember-mdl.herokuapp.com/
-[screen_shot]: https://raw.githubusercontent.com/gelojavonitalla/ember-mdl-android-dot-com/master/samples/Android.com%20Material%20Design%20Lite%20Ember.png
+[screen_shot]: https://github.com/xhape/idea-market-website/blob/feature/vince/samples/web_screenshot.png
 [heroku_deploy]: https://heroku.com/deploy?template=https://github.com/gelojavonitalla/ember-mdl-android-dot-com/tree/master
