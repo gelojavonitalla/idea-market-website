@@ -20,7 +20,7 @@ let aboutList = [
   },{
     image: "images/hw/pexels-photo-9816.png",
     title: "For Eveyone.",
-    description:"Either you just want to share, earn extra, or looking for the next big ideas. IdeaMarket is the place for you/ It's a community and it's for everyone. Let's build a bright tomorrow out of brilliant ideas!."
+    description:"Either you just want to share, earn extra, or looking for the next big ideas. IdeaMarket is the place for you. It's a community and it's for everyone. Let's build a bright tomorrow out of brilliant ideas!."
   }
 ];
 
