@@ -2,14 +2,25 @@ import Ember from 'ember';
 
 let aboutList = [
   {
-    image: "images/more-from-1.png",
-    title: "Post Your Idea",
-    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget luctus urna. Fusce ultrices nulla arcu, ac gravida quam pretium non. Nam sit amet ex vulputate, tincidunt ligula sit amet, scelerisque ligula. Fusce sit amet turpis condimentum lorem ornare viverra sit amet vitae urna. Nullam vel fermentum nulla. Proin mauris erat, ullamcorper quis eros eu, porttitor dapibus odio. Ut sed risus lacus. Aliquam vitae sem sit amet risus molestie hendrerit in sit amet arcu. Quisque nec mattis elit. Cras viverra nisl quis enim tempus finibus. Phasellus ullamcorper molestie faucibus. Aliquam tempus urna massa, sed porta justo pellentesque et. Nulla ultricies magna id leo vehicula pretium. Quisque finibus consectetur gravida. Nullam aliquet augue at nunc egestas pretium. Quisque feugiat dolor non maximus luctus. Etiam ultricies est ac quam tempus feugiat. Nam pellentesque accumsan arcu, a sagittis nunc euismod tempus. Aliquam quis sodales ante. Nunc non eros hendrerit, feugiat lacus non, volutpat arcu. Praesent gravida tortor nec tortor consectetur eleifend."
+    image: "static.pexels/lq/startup-photos.jpg",
+    title: "A Platform for all Ideators.",
+    description: "Post your idea and the world know. You can choose on how it will be shared; Make it public for everyone to see and get more exposure, private to earn credits for every view, and protected to have full control on who can view your idea."
   },{
-    image: "images/more-from-4.png",
-    title: "The World is waiting for your idea. Share it",
-    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget luctus urna. Fusce ultrices nulla arcu, ac gravida quam pretium non. Nam sit amet ex vulputate, tincidunt ligula sit amet, scelerisque ligula. Fusce sit amet turpis condimentum lorem ornare viverra sit amet vitae urna. Nullam vel fermentum nulla. Proin mauris erat, ullamcorper quis eros eu, porttitor dapibus odio. Ut sed risus lacus. Aliquam vitae sem sit amet risus molestie hendrerit in sit amet arcu. Quisque nec mattis elit. Cras viverra nisl quis enim tempus finibus. Phasellus ullamcorper molestie faucibus. Aliquam tempus urna massa, sed porta justo pellentesque et. Nulla ultricies magna id leo vehicula pretium. Quisque finibus consectetur gravida. Nullam aliquet augue at nunc egestas pretium. Quisque feugiat dolor non maximus luctus. Etiam ultricies est ac quam tempus feugiat. Nam pellentesque accumsan arcu, a sagittis nunc euismod tempus. Aliquam quis sodales ante. Nunc non eros hendrerit, feugiat lacus non, volutpat arcu. Praesent gravida tortor nec tortor consectetur eleifend."
-
+    image: "static.pexels/lq/pen-idea-bulb-paper.jpg",
+    title: "The world is waiting for your idea Share it and get discovered.",
+    description: "An idea shared is a problem halved. Share your ideas and get audience. More views, more feed backs, a stronger idea..Gain reputation and be known as an idea machine."
+  },{
+    image: "static.pexels/lq/pexels-photo.jpg",
+    title: "Make money from your ideas",
+    description: "We said ideas are cheap but we didnt say it's free. For every views on private and protected ideas you can earn credits. Credits can be wired to your account or use it to view others ideas."
+  },{
+    image: "static.pexels/lq/desk-office-hero-workspace.jpg",
+    title: "Connect with different people. Work together",
+    description: "Meet people that have the same ideas and passion. Looking for a team? You can post job opening with your ideas. If they like your idea and you have the park, it's a match!"
+  },{
+    image: "static.pexels/lq/pexels-photo-9816.jpg",
+    title: "For Eveyone.",
+    description:"Either you just want to share, earn extra, or looking for the next big ideas. IdeaMarket is the place for you/ It's a community and it's for everyone. Let's build a bright tomorrow out of brilliant ideas!."
   }
 ];
 

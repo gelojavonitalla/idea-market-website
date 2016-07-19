@@ -5,15 +5,14 @@
     </div>
     <div class="logo-font sub-slogan">Become an Ideator and share your ideas around the world</div>
 </div>
-<h1>About Us</h1>
-<div class="mdl-grid">
+<div class="mdl-grid entry-content">
 {{#each model.aboutList as | about index|}}
     <div class="featureBlock">
         <div class="mdl-card__actions mdl-card--border"></div>
         <div class="item">
         <img class="image" src="{{about.image}}">
         <div class="caption">
-            <h1 class="mdl-card__title-text">{{about.title}}</h1>
+            <h3>{{about.title}}</h3>
             <p>{{about.description}}</p></div>
         </div>
     </div>
