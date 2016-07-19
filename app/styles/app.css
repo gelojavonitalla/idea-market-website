@@ -538,6 +538,10 @@ a img {
   }
 }
 
+html {
+  overflow-y: hidden;
+}
+
 /** Originally from the HTML file*/
 #view-source {
   position: fixed;
