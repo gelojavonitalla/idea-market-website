@@ -13,11 +13,11 @@
     </div>
 </div>
 
-<div class="android-more-section ">
-<div class="android-section-title mdl-typography--display-1-color-contrast entry-content">How It Works</div>
-<div class="mdl-grid">
+<div class="android-more-section">
+<div class="mdl-grid entry-content">
 {{#each model.aboutList as | about index|}}
     <div class="featureBlock">
+        <div class="mdl-card__actions mdl-card--border"></div>
         <div class="item">
         <img class="image" src="{{about.image}}">
         <div class="caption">
@@ -25,11 +25,10 @@
             <p>{{about.description}}</p></div>
         </div>
     </div>
-	<div class="mdl-card__actions mdl-card--border"></div>
 {{/each}}
 </div>
 
-    <div class="android-section-title mdl-typography--display-1-color-contrast entry-content">Featured Ideas</div>
+    <div class="android-section-title mdl-typography--display-1-color-contrast">Featured Ideas</div>
     <div class="android-card-container mdl-grid">
       {{#each model.features as |feature|}}
         {{feature-card feature=feature}}
