@@ -151,8 +151,11 @@ a img {
 
 .banner {
   position: relative;
-  height: 800px;
-  width: auto;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  margin-buttom: 5rem;
+  text-align: center;
   background-color: #f3f3f3;
   background: url('/images/banner-2.jpg') center 30% no-repeat;
   background-size: cover;
