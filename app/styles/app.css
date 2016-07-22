@@ -579,23 +579,9 @@ p {
   color: #7e8890;
 }
 
-.entry-content {
-  border-bottom: 3px solid #666;
-  padding: 0 0 15px 0;
-  margin-bottom: 8px;
-}
 
-.meta-info {
-  padding: 5px;
-  overflow: hidden;
-}
+.entry-content {padding: 0 0 15px 0; margin-bottom: 8px; }
 
-.meta-info p {
-  font-family: 'Fenix', serif;
-  font-style: italic;
-  color: #666;
-  font-size: 16px;
-}
 
 .featureBlock {
   margin: 0 auto;
@@ -610,7 +596,7 @@ p {
 }
 
 .featureBlock .item .caption {
-  width: 100%;
+  width: 95%;
   height: auto;
   padding: 10px;
 }
@@ -618,6 +604,7 @@ p {
 .featureBlock .item .image {
   width: 100%;
   padding: 10px;
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -631,28 +618,28 @@ p {
     float: left;
     width: 60%;
     padding: 5px;
+    margin-left:-100px;
   }
 
   .featureBlock:nth-child(odd) .caption {
     text-align: left;
     float: right;
-    max-width: 350px;
-    width: 40%;
-    padding: 5px;
+    max-width: 512px;
+    width: 50%;
   }
 
   .featureBlock:nth-child(even) .image {
     float: right;
     width: 60%;
     padding: 5px;
+    margin-right:-100px;
   }
 
   .featureBlock:nth-child(even) .caption {
     text-align: left;
-    padding: 5px;
     float: left;
-    max-width: 350px;
-    width: 40%;
+    max-width: 512px;
+    width: 50%;
   }
 }
 
